@@ -8,7 +8,7 @@ Welcome to the **Fitness and Wellness Platform**! This project is a web-based ap
 - **Home Page**: Introduction to the platform and navigation to other sections.
 - **About Us**: Information about the platform's mission and purpose.
 - **Contact Us**: A contact form where users can get in touch with the platform.
-- **Newsletter Subscription**: Users can subscribe to a newsletter by entering their email address.
+- **News Subscription**: Users can subscribe to a newsletter by entering their email address.
 
 ## Technologies Used
 
