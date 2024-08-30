@@ -83,15 +83,11 @@ Welcome to the **Fitness and Wellness Platform**! This project is a web-based ap
 
 - **Register**: Navigate to the `Register` page, fill out the form, and submit to register as a user.
 - **Contact Us**: Use the contact form to reach out to the platform administrators.
-- **Newsletter Subscription**: Enter your email on the `About Us` page to receive regular updates.
+- **News Subscription**: Enter your email on the `About Us` page to receive regular updates.
 
 ## Contributing
 
 Contributions are welcome! Please fork the repository and submit a pull request for review.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Contact
 
