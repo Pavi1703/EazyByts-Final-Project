@@ -61,7 +61,6 @@ Welcome to the **Fitness and Wellness Platform**! This project is a web-based ap
           created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
       );
 
-
       CREATE TABLE news (
           id INT AUTO_INCREMENT PRIMARY KEY,
           email VARCHAR(255) NOT NULL,
