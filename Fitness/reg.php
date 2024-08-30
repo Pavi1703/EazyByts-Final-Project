@@ -18,7 +18,7 @@
 <?php
 $servername = "localhost"; // Replace with your database server name
 $username = "root"; // Replace with your database username
-$password = "pavi"; // Replace with your database password
+$password = "yourpassword"; // Replace with your database password
 $dbname = "reg"; // Replace with your database name
 
 // Create connection
