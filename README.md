@@ -32,13 +32,13 @@ Welcome to the **Fitness and Wellness Platform**! This project is a web-based ap
     ```
 2. **Create the Database**:
     - Open your MySQL command line or a database management tool like phpMyAdmin.
-    - Create a database named `reg`:
+    - Create a database named `Fitness`:
       ```sql
-      CREATE DATABASE reg;
+      CREATE DATABASE Fitness;
       ```
     - Select the database:
       ```sql
-      USE reg;
+      USE Fitness;
       ```
     - Create the required tables:
       ```sql
@@ -52,7 +52,17 @@ Welcome to the **Fitness and Wellness Platform**! This project is a web-based ap
           created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
       );
 
-      CREATE TABLE newsletter (
+      CREATE TABLE contact (
+          id INT AUTO_INCREMENT PRIMARY KEY,
+          name VARCHAR(255) NOT NULL,
+          email VARCHAR(255) NOT NULL,
+          subject VARCHAR(255) NOT NULL,
+          message TEXT NOT NULL,
+          created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+      );
+
+
+      CREATE TABLE news (
           id INT AUTO_INCREMENT PRIMARY KEY,
           email VARCHAR(255) NOT NULL,
           created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
@@ -69,7 +79,7 @@ Welcome to the **Fitness and Wellness Platform**! This project is a web-based ap
       $servername = "localhost"; // Your database server name
       $username = "root"; // Your database username
       $password = "yourpassword"; // Your database password
-      $dbname = "reg"; // Database name
+      $dbname = "Fitness"; // Database name
       ```
 
 4. **Deploy the Project**:
